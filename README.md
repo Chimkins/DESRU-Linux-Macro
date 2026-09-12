@@ -22,6 +22,14 @@ Potential fixes would be.
 
 ### **I will likely __ONLY__ continue working on this if the MDSR moderators approve of this being a potential solution for the lack of DESRU's macro on linux**
 
+## Keybindings
+
+Edit `/src/desru-linux-macro/config.json` to set keybinds (Must be [evdev key names](https://python-evdev.readthedocs.io/en/latest/ecodes.html))
+
+Default Keybinds are Middle Mouse for scroll down macro and J for scroll up macro.
+
+There is no limit on the amount of keys that can be bound to a macro action
+
 ## Requirements
 
 Tested on python 3.14.7 (likely works on most python 3 versions)
@@ -40,6 +48,4 @@ I recommend [__UV__](https://github.com/astral-sh/uv) for isolated virtual envio
 
 3. Run `uv sync`
 
-4. Edit `/src/desru-linux-macro/config.json` to set keybinds (Must be [evdev key names](https://python-evdev.readthedocs.io/en/latest/ecodes.html)) Default Keybinds are Middle Mouse for scroll down macro and J for scroll up macro
-
-5. Run `uv run desru-linux-macro` to execute the python program
+4. Run `uv run desru-linux-macro` to execute the python program
