@@ -154,13 +154,11 @@ def main():
                             ):
                                 continue
 
-                            if event.value == 1:
-                                # Key pressed.
+                            if event.value == 1: #a macro key is being pressed
                                 press_counter += 1
                                 press_order[event.code] = press_counter
 
-                            elif event.value == 0:
-                                # Key released.
+                            elif event.value == 0: #a macro key has been released
                                 press_order.pop(event.code, None)
                         
                 except OSError as e:
