@@ -1,0 +1,19 @@
+[project]
+name = "desru-macro-linux"
+version = "0.1.0"
+description = "Proof of concept/beta version of a linux native free scroll macro for DOOM Eternal"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "evdev>=2.0.0",
+]
+
+[project.scripts]
+desru-macro-linux = "desru_macro_linux.main:main"
+
+[build-system]
+requires = ["uv_build>=0.12.10,<0.13.0"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+source-include = ["src/desru_macro_linux/config.json"]

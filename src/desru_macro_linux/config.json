@@ -1,0 +1,8 @@
+{
+  "scroll_up_keybinds": [
+    "KEY_J"
+  ],
+  "scroll_down_keybinds": [
+    "BTN_MIDDLE"
+  ]
+}
