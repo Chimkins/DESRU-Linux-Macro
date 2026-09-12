@@ -34,7 +34,6 @@ def fetch_input_devices(): #Returns all valid mouse and keyboard input devices
 def get_keybinds(): #Gets keybinds from config.json and returns them as key codes !not a good implementation yet as a malformed config.json will result in a crash!
     config_file = files("desru_macro_linux").joinpath("config.json")
     keybinds = json.loads(config_file.read_text())
-
         
     try:
         scroll_up_key_codes = {
