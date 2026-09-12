@@ -52,7 +52,7 @@ def get_keybinds(): #Gets keybinds from config.json and returns them as key code
 
     if overlapping_keys:
         raise ValueError(
-            f"Please do not bind a key to both scroll directions"
+            f"Please do not bind a key to both scroll directions: "
             f"{overlapping_keys}"
         )
 
