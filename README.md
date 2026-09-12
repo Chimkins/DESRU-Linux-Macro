@@ -40,6 +40,6 @@ I recommend [__UV__](https://github.com/astral-sh/uv) for isolated virtual envio
 
 3. Run `uv sync`
 
-4. Edit `/src/desru-linux-macro/config.json` to set keybinds (Must be [evdev key names](https://python-evdev.readthedocs.io/en/latest/ecodes.html))
+4. Edit `/src/desru-linux-macro/config.json` to set keybinds (Must be [evdev key names](https://python-evdev.readthedocs.io/en/latest/ecodes.html)) Default Keybinds are Middle Mouse for scroll down macro and J for scroll up macro
 
 5. Run `uv run desru-linux-macro` to execute the python program
