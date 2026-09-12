@@ -34,7 +34,7 @@ I recommend [__UV__](https://github.com/astral-sh/uv) for isolated virtual envio
 >[!IMPORTANT]
 >**Your user MUST be in the input group to use this macro. To add yourself run `sudo usermod -aG input $USER`**
 
-1. clone the git repo `{link here}`
+1. clone the git repo `https://github.com/Chimkins/DESRU-Linux-Macro.git`
 
 2. Run `uv sync`
 
