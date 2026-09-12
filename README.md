@@ -36,8 +36,10 @@ I recommend [__UV__](https://github.com/astral-sh/uv) for isolated virtual envio
 
 1. clone the git repo `https://github.com/Chimkins/DESRU-Linux-Macro.git`
 
-2. Run `uv sync`
+2. CD into the repo `cd DESRU-Macro-Linux`
 
-3. Edit `/src/desru-linux-macro/config.json` to set keybinds (Must be [evdev key names](https://python-evdev.readthedocs.io/en/latest/ecodes.html))
+3. Run `uv sync`
 
-4. Run `uv run desru-linux-macro` to execute the python program
+4. Edit `/src/desru-linux-macro/config.json` to set keybinds (Must be [evdev key names](https://python-evdev.readthedocs.io/en/latest/ecodes.html))
+
+5. Run `uv run desru-linux-macro` to execute the python program
